@@ -15,15 +15,15 @@ session.conf.set(
 )
 
 #enter credentials
-account_name = 'clustersparkstoragea'
-account_key = 'bchJyDadU8wc3r7vZTjG9IuM59/Zr8ghPcgVTqfBKsm0AV+Xm0cq4vaOC6YWxRBcKK0UyEwsPyGD+AStQF2mfA=='
-container_name = 'dati'
+account_name = 'xxxxxxxxxxxxxxx'
+account_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+container_name = 'xxxxxxxxxxxxxxxx'
 
-account_url = "abfss://dati@clustersparkstoragea.dfs.core.windows.net"
+account_url = "abfss://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 
 #create a client to interact with blob storage
-connect_str = "DefaultEndpointsProtocol=https;AccountName=clustersparkstoragea;AccountKey=bchJyDadU8wc3r7vZTjG9IuM59/Zr8ghPcgVTqfBKsm0AV+Xm0cq4vaOC6YWxRBcKK0UyEwsPyGD+AStQF2mfA==;EndpointSuffix=core.windows.net"
+connect_str = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 blob_service_client = BlobServiceClient.from_connection_string(connect_str)
 
 #use the client to connect to the container

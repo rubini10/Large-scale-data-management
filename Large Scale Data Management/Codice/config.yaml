@@ -1,4 +1,0 @@
----
-azure_storage_connectionstring: "DefaultEndpointsProtocol=https;AccountName=clustersparkstoragea;AccountKey=bchJyDadU8wc3r7vZTjG9IuM59/Zr8ghPcgVTqfBKsm0AV+Xm0cq4vaOC6YWxRBcKK0UyEwsPyGD+AStQF2mfA==;EndpointSuffix=core.windows.net"
-container_name: "dati"
-source_folder: "parquet"
